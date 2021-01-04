@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("../images/ufo_collage.png");
+  background-size: cover;
+}
+
+/* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
+
+* {
+  font-family: sans-serif; /* Change your font family */
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin-left: 17em;
+  margin-right: 17em;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #686d76;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  opacity: 0.92;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+  margin-left: : 8em;
+
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  opacity: 0.92;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: #cccccc;
+  opacity: 0.92;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 130px;
+  padding-top: 130px;
+}
+
+
+.navbar {
+  padding: 5px;
+  margin: 0;
+}
+
+.search-box1:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+
+}
+
+.search-box2:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+
+}
+
+.search-box1{
+  position: absolute;
+  top: 1.5%;
+  left:30%;
+  transform: translate(-50%, -50%);
+  background: #686d76;
+  height: 40px;
+  border-radius:40px;
+  padding: 0px;
+}
+
+.search-box2{
+  position: absolute;
+  top: 1.5%;
+  left:60%;
+  transform: translate(-50%, -50%);
+  background: #686d76;
+  height: 40px;
+  border-radius:40px;
+  padding: 0px;
+}
+
+.search-btn {
+  color: black;
+  float:center;
+  width: 40px;
+  height: 40px;
+  boarder-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #eeeeee;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+
+}
